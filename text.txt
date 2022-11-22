@@ -1,0 +1,53 @@
+------------------------------
+----Abreviaturas----
+U = user/usuario/s
+
+------------------------------
+
+- Diferencias entre las websites vs webapps 
+
++ Websites (Sitios Web): 
+Son estáticos (iguales para todos los usuarios), y se pueden hacer únicamente con HTML y CSS.
+
++ Webapps (Aplicaciones Web); 
+Son dinámicas (interactivas con los usuarios) y para estas se necesita JS aparte de HTML y CSS, y algún framework para facilitar el desarrollo.
+
++ Framework (Entorno/Marco de trabajo​): 
+Contiene librerías y herramientas que nos ayudarán a construir algo más rápido, garantizando la calidad gracias a una metodología y estructura de trabajo bien definida.
+
++ Librería: 
+Es un fragmento de código que nos ayuda a resolver un problema específico y que tiene un propósito concreto.
+
+- Qué son los componentes?
+
+Los componentes son todos esos elementos que tenemos en el htl y js que podemos reutilizar en otras partes y modificarlos (son como los bloques de lego) para que luzcan distintos como son:
+    +Button
+    +Label
+    +Input
+    +Img
+    +Formularios, etc.
+
+- Cómo estructurar un componente?
+Siempre se hacen por bloques, por cajas
+
+- Qué es la reactividad?
+
+Es un paradicga, es la forma con la que pensamos nuestras aplicaciones de modo que sigan dos reglas o alineamientos:
+    1. Responsive. Es decir, que saben que hacer en todo momento y se basa a su vez en dos parámetros:
+        a. Resiliente, quiere decir que nuestra app siempre sabe lo que tiene que hacer incluso cuando son situaciones malas o de pánico
+        b. Elástico o escalable, nuestra app tiene que seguir funcionando hayan las personas que hayan dentro de la app usandola 
+    Podemos decir que si nuestra app es resiliente y tiene escaabilidad, es responsive.
+
+    2. Message Driven. Es programar nuestra app con emisores y receptores de mensajes. Estos mensajes funcionan de una forma asíncrona y con observers
+    
+Estado: es donde vamos a guardar la información de nuestros paradigmas. Son variables a las que nos subscribimos (estamos preparados para cuando haga la busqueda el U, ya que en cualquier momento puede hacerla) cada vez que cambian sus valores
+Render: es como las lineas de js pasan a ser visualizadas en el DOM
+
+Ej de cómo funcionan las apps:
+
+    Componente ---> Estado ----> Render ----> Usuario ----> Estado ----> Render ----> Usuario (ciclo)
+
+- Librerías vs Frameworks
+
+Un framework es un marco de trabajo que contiene librerías y herramientas que nos ayudan a construir algo de manera más rápida
+Mientras que las librerías son fragmentos de código que nos ayudan a resolver un problema específico
