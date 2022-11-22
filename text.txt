@@ -51,3 +51,53 @@ Ej de cómo funcionan las apps:
 
 Un framework es un marco de trabajo que contiene librerías y herramientas que nos ayudan a construir algo de manera más rápida
 Mientras que las librerías son fragmentos de código que nos ayudan a resolver un problema específico
+
+- Ecosistemas de Frameworks y librerías de JS
+    +Empaquetadores:
+        -Webpack, permite modificar ciertas cosas del empaquetado, este se usa para construir páginas web y apps 
+        -Parcel, no me permite modificar nada, ya viene todo hecho de 'fabrica'
+        -Rollup, este se suele usar para construir librerías de JS 
+    +Compiladores: transforman el código que no es js a js para que el browser lo pueda entender
+        -Babel, nos permite usar el codigo del futuro en proyectos que utilizan otra version, unificando todo en una version que entiendan los programadores
+        -TypeScript, Es un lenguaje de programacion con sus nuevas reglas que nos permiten entender mas facil los errores en JavaScript
+    +Tools para UI, se encanrgan de interactuar con los U
+        -React 
+        -Vue
+        -Svelt
+    +CSS y preparadores
+        -CSS
+        -Sass
+        -Less
+        -Stylus
+    -CSS-in-JS
+        -Styled Components 
+        -Emotion
+    -Routers, es la forma en la que hacemos la navegación de nuestra app
+        -React Routers
+        -Vue Routers
+        .
+        .
+        .
+    +Framework (todo en uno)
+        -Anguar.
+    +Manejo de estado 
+        -Redux
+        -XState
+        -MobX
+    +Consulta de datos
+        -API Resiliente
+        -GraphQL
+
+- Qué es React?
+
+Es un lenguaje creado por el equipo de Facebook que su función es el la mejora del UI y a la vez facilitar la revisión del código y mantenimiento
+React es declarativo (muy fácil de leer),
+basado en componentes y 
+multiplataforma (learn Once, Write Anywhere).
+Hay dos formas de crar componentes en React
+    1. A través de clases con React.Component 
+    2. SA través de estados y esto nos permite cambiar el contenido de una variable dependiendo de las interacciones de un U
+
+- Qué es Angular?
+
+Está patrocinado por Google.
