@@ -98,6 +98,6 @@ Hay dos formas de crar componentes en React
     1. A través de clases con React.Component 
     2. SA través de estados y esto nos permite cambiar el contenido de una variable dependiendo de las interacciones de un U
 
-- Qué es Angular?
+- Qué es Angular y cómo y cuándo usarlo?
 
-Está patrocinado por Google.
+Está patrocinado por Google. Este lo usamos para la construcción de aplicaciones muy grandes, estilo google chrome,
