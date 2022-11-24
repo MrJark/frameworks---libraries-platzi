@@ -12,7 +12,7 @@ export default function Form(props) {
             setQuantity(quantity + 1)} disabled = {quantity <= 0}> + </button>
             {quantity}
             <button type='button' onClick={() =>
-            setQuantity(quantity - 1)} disabled = {quantity <= available}> - </button>
+            setQuantity(quantity - 1)} disabled = {quantity <= movie.available()}> - </button>
           </form>
     )
 } 
